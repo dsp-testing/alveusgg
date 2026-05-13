@@ -5,7 +5,6 @@ registries:
     type: npm-registry
     url: https://npm.pkg.github.com
     token: ${{secrets.GH_PKG_REGISTRY_TOKEN}}
-
 updates:
   - package-ecosystem: github-actions
     directory: /
